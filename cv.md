@@ -15,8 +15,14 @@ I'm trying to learn something new, gain knowledge and skills in the field of web
 - Git
 ---
 ## Code example:
-'''
+```
 function multiply(a, b){
   return a * b;
 }
-'''
+```
+## Education
+---
+* BELARUSIAN-RUSSIAN UNIVERSITY, Electric Drive and Automation of Industrial Units
+* Courses
+    - [HTML для начинающих](https://ru.code-basics.com/languages/html)
+    - [CSS для начинающих](https://ru.code-basics.com/languages/css)
