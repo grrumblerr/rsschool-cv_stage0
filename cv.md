@@ -26,3 +26,9 @@ function multiply(a, b){
 * Courses
     - [HTML для начинающих](https://ru.code-basics.com/languages/html)
     - [CSS для начинающих](https://ru.code-basics.com/languages/css)
+
+## Languages
+---
+* Russian
+* Belorussian
+* English (Pre-Intermediate)
