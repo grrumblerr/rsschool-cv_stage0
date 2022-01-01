@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  margin: 25px auto;
+  width: 1024px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.sections {
+  display: flex;
+}
+
+.left-section {
+  width: 40%;
+  color: black;
+  background-color: rgb(225, 225, 225);
+}
+
+.right-section {
+  width: 60%;
+  padding: 40px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 0 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: black;
+  background-color: rgb(225, 225, 225);
+}
