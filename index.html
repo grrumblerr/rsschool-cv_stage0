@@ -4,9 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rsschool-cv-html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="sections">
+          <div class="left-section">
+            <header>
+              <img src="./assets/images/avatar.jpg" alt="avatar" width="200">
+              <h1>Sergey Starostin</h1>
+              <h2>RS School student</h2>
+            </header>
+            <main>
+              <section class="contacts">
+                <h3>Contacts</h3>
+                  <ul>
+                    <li>
+                      <p>Email: grrumblerr@yandex.by</p>
+                    </li>
+                    <li>
+                      <p>Github: <a href="https://github.com/grrumblerr">grrumblerr</a></p>
+                    </li>
+                  </ul>
+              </section>
+              <section class="skills">
+                <h3>Skills</h3>
+                  <ul>
+                    <li>HTML, CSS</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code</li>
+                  </ul>
+              </section>
+              <section class="languages">
+                <h3>Languages</h3>
+                  <ul>
+                    <li>
+                      <p class="language-name">Russian</p>
+                    </li>
+                    <li>
+                      <p class="language-name">Belorussian</p>
+                    </li>
+                    <li>
+                      <p class="language-name">English</p>
+                      <p>(Pre-Intermediate)</p>
+                    </li>
+                  </ul>
+              </section>
+            </main>
+          </div>
+          <aside class="right-section">
+            <section class="about-me">
+              <div class="sub-header">
+                <h3>About Me</h3>
+              </div>
+              <p>I'm trying to learn something new, gain knowledge and skills in the field of using JavaScript and web development.</p>
+            </section>
+            <section class="education">
+              <div class="sub-header">
+                <h3>Education</h3>
+              </div>
+              <p><strong>BELARUSIAN-RUSSIAN UNIVERSITY</strong></p>
+              <p>Electric Drive and Automation of Industrial Units</p>
+              <p>Years: 2004 - 2009</p>
+            </section>
+            <section class="courses">
+              <div class="sub-header">
+                <h3>Courses</h3>
+              </div>
+              <ul>
+                <li><a href="https://ru.code-basics.com/languages/html">HTML для начинающих</a></li>
+                <li><a href="https://ru.code-basics.com/languages/css">CSS для начинающих</a></li>
+                <li>JavaScript Manual on learnjavascript.ru</li>
+              </ul>
+             </section>
+            <section class="code-example">
+              <div class="sub-header">
+                <h3>Code example</h3>
+              </div>
+              <p>Your coworker was supposed to write a simple helper function to capitalize a string (that contains a single word) before they went on vacation.
+                Unfortunately, they have now left and the code they gave you doesn't work. Fix the helper function they wrote so that it works as intended (i.e. make the first character in the string "word" upper case).
+                Don't worry about numbers, special characters, or non-string types being passed to the function. The string lengths will be from 1 character up to 10 characters, but will never be empty.</p>
+              <pre>
+                <code>
+                  function capitalizeWord(word) {
+                    word[0].toUpperCase();
+                    return word;
+                  }
+               </code>
+              </pre>
+            </section>
+          </aside>
+        </div>
+        <footer>
+          <a class="my-github" href="https://github.com/grrumblerr">
+            <img class="github-logo" src="./assets/icons/GitHub_Logo.png" alt="Github Logo" width="64">
+            <p>grrumblerr</p>
+          </a>
+          <p>© 2022</p>
+          <a href="https://rs.school/js/">
+            <img src="./assets/icons/rs_school_js.svg" alt="Rsschool Logo" width="64">
+          </a>
+        </footer>
+      </div>
 </body>
 </html>
