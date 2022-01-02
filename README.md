@@ -1,1 +1,1 @@
-https://github.com/grrumblerr/rsschool-cv/
+https://grrumblerr.github.io/rsschool-cv/
